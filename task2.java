@@ -7,7 +7,7 @@ public class task2 {
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = scanner.nextInt();
         }
-
+        //Sorting using Bubble sort
         for (int i=0;i<numbers.length;i++){
             for(int j=0;j<numbers.length-i-1;j++){
                 if(numbers[j]>numbers[j+1]){
