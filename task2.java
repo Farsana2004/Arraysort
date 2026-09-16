@@ -24,9 +24,9 @@ public class task2 {
         }
 
         int secondlowest = numbers[1];
-        System.out.println("\nSecond lowest number: " + secondlowest);
-
         int secondhighest = numbers[3];
+
+        System.out.println("\nSecond lowest number: " + secondlowest);
         System.out.println("Second highest number: " + secondhighest);
     }
 }
